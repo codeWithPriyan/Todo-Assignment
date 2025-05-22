@@ -66,6 +66,9 @@ Setup Instructions -
 
        npm start
    
+
+
+
 LLM Integration Setup
 
    1.Obtain an API Key
@@ -77,6 +80,7 @@ LLM Integration Setup
          GEMINI_API_KEY = https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key
 
 Backend Integration
+
 The backend will use this key to send the current to-do list to the LLM and generate a summary.
 
 
