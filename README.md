@@ -4,17 +4,27 @@ A full-stack application for managing personal to-do items, generating AI-powere
 
 Features -
   1.Add, edit, and delete to-do items
+  
   2.View your current to-do list
-  3.Generate a summary of all pending to-dos using a real LLM (e.g., Gemini, OpenAI, Cohere, etc.)
+  
+  3.Generate a summary of all pending to-dos using a real LLM ( Gemini)
+  
   4.Send the generated summary to a Slack channel with one click
+  
   5.Visual feedback for Slack operation success or failure
 
 Tech Stack -
+
 Layer	Technology Choices
+
 Frontend -	React
+
 Backend -	Node.js (Express) 
+
 Database -	Supabase
+
 LLM -	Gemini
+
 Slack -	Slack Incoming Webhooks
 
 Setup Instructions -
