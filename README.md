@@ -77,8 +77,7 @@ LLM Integration Setup
    2.Add the API Key to Your Environment
       In your .env file:
       
-         GEMINI_API_KEY = https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key
-
+         GEMINI_API_KEY = YOUR_GEMINI_API_KEY_HERE
 Backend Integration
 
 The backend will use this key to send the current to-do list to the LLM and generate a summary.
