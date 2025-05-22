@@ -22,9 +22,10 @@ Setup Instructions -
 1. Clone the Repository
    
    git clone https://github.com/codeWithPriyan/Todo-Assignment.git
+   
    cd Todo-Assignment
 
-2. Configure Environment Variables
+3. Configure Environment Variables
 
     1.Copy .env.example to .env in both frontend and backend directories.
     2.Fill in the required variables:
@@ -32,7 +33,7 @@ Setup Instructions -
        Slack Webhook URL (SLACK_WEBHOOK_URL)
        Database credentials ( Supabase keys)
 
-3. Install Dependencies
+4. Install Dependencies
 
    Frontend:
    
@@ -62,7 +63,7 @@ LLM Integration Setup
    2.Add the API Key to Your Environment
       In your .env file:
       
-         GEMINI_API_KEY=your_gemini_api_key_here
+         GEMINI_API_KEY = https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key
 
 Backend Integration
 The backend will use this key to send the current to-do list to the LLM and generate a summary.
