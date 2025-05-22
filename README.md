@@ -88,10 +88,15 @@ Slack Integration Setup
 Design & Architecture Decisions
 
   1.Frontend: Built with React for a responsive, component-based UI.
+  
   2.Backend: Node.js (Express) or Java (Spring Boot) for RESTful API and integrations.
+  
   3.Database: Supabase or Firebase for reliable, scalable storage.
+  
   4.LLM Integration: Real-time summarization using a production LLM API.
+  
   5.Slack Integration: Simple, secure posting via Slack Incoming Webhooks.
+  
   6.Separation of Concerns: Clear division between frontend, backend, and service integrations for maintainability.
 
 Deployed URL on vercel - https://todolist-tm66.vercel.app/
