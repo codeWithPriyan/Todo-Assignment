@@ -3,6 +3,7 @@
 A full-stack application for managing personal to-do items, generating AI-powered summaries of pending tasks, and sending these summaries to Slack. Built with React (frontend) and Node.js (backend), this project demonstrates modern web development practices and seamless integration with LLM APIs and Slack.
 
 Features -
+
   1.Add, edit, and delete to-do items
   
   2.View your current to-do list
