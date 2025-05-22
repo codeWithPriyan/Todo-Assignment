@@ -73,20 +73,16 @@ The backend will use this key to send the current to-do list to the LLM and gene
 Slack Integration Setup
 
   1.Go to your Slack workspace and create a new Incoming Webhook:
+  
       a.Navigate to Slack API > Incoming Webhooks.
+      
       b.Click Add New Webhook to Workspace.
+      
       c.Choose the channel where summaries will be posted.
+      
       d.Copy the generated Webhook URL.
+      
   2.Paste this URL into your .env file as SLACK_WEBHOOK_URL.
-
-API Endpoints
-
-Method      Endpoint      	Description
-
-GET	   ->   /todos	         Fetch all to-dos
-POST	 ->   /todos	         Add a new to-do
-DELETE ->   /todos/:id	     Delete a to-do by ID
-POST	 ->   /summarize     	 Summarize to-dos and send to Slack
 
 
 Design & Architecture Decisions
